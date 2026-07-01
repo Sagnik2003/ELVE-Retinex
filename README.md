@@ -14,7 +14,7 @@ PyTorch implementation of the paper:
 
 | Input (low-light) | Enhanced (ours) |
 |---|---|
-| ![input](samples/input.gif) | ![enhanced](samples/enhanced.gif) |
+| ![input](results/samples/input.gif) | ![enhanced](results/samples/enhanced.gif) |
 
 ---
 
