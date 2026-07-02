@@ -160,3 +160,15 @@ Run `metrics.py` functions directly or call `evaluate()` in `train.py`.
 - **Zero-reference**: no paired training data is required. Ground truth is only used for evaluation metrics.
 - **SPAQ**: `metrics.py` includes a stub. To get real SPAQ scores, integrate the pretrained model from https://github.com/h4nwei/SPAQ.
 - The paper records videos with a OnePlus 7T (48 MP Sony IMX586, f/1.6). Any outdoor low-light video footage should work.
+- We mostly used VAST-ReID dataset 
+
+``` bibtex 
+@INPROCEEDINGS{11492193,
+  author={Khan, H. and Giri, R. K. and Thakare, K. V. and Choi, H.},
+  booktitle={2026 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 
+  title={VAST-ReID: A Low-Light Benchmark Dataset for Person Re-Identification with Visual and Attribute-Rich Semantic Tracking}, 
+  year={2026},
+  pages={5833-5843},
+  doi={10.1109/WACV61042.2026.00565}
+}
+```
